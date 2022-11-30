@@ -1,0 +1,10 @@
+////Muhammad Wajih Rajani
+////mwrajani@myseneca.ca
+////142199207
+////5 / 22 / 2022 
+////I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I have learned many things in this workshop. One of them is the usage of the deque library and its functions. Like I had never used the empty function of deque before, which returns true if 
+the deque is empty or false if not. I used it in the workstation module’s is Empty function which I created to check if m_order is empty or not. I learned to use the move operator along with 
+push_back function to move the order at the front of the deque in the workstation module’s attempt To Move Order function.
+I had many problems in this course like when I was trying to find if m_activeline was empty in the linemanager module without making the empty function in workstation module, it was really 
+hard as there was no way to access a variable from the workstation module so I had to make a function to do the job for us.

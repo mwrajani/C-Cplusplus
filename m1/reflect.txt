@@ -1,0 +1,13 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//3 / 21 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I learned many things in this workshop, like the use of STL functions. I used many STL functions in this workshop like for_each, I used it whenever I needed a loop in the workshop, as that 
+function acts like a loop. I used the sort of function; this one was used to sort the data in the vector collection in ascending order whenever required. I also use push_back to add data to 
+the vector collection. There are many advantages of using STL algorithms rather than implementing our functions like we don’t need to write all the code, so we save time, furthermore when we 
+are using STL functions, we are writing less code which means fewer errors so less debugging, which basically means that we are saving time and energy consecutively. I would redesign my code 
+in a way that I would ask for the file name and keep asking for it until I receive a valid filename through which I could open a file.
+I also had many problems in this workshop in the constructer, I made a loop for reading the file in a way that it kept reading when the film ended, so the code was crashing, and it was hard to 
+catch because the loop run many times reading the file and the code ran correctly when I tried to debug, and I could not click on the continue button until reaching the error, I solved the 
+an error by making the condition of the loop that if the getline function works, do it again until it doesn’t and this solved the error.

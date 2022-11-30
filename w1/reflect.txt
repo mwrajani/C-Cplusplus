@@ -1,0 +1,18 @@
+////Muhammad Wajih Rajani
+////mwrajani@myseneca.ca
+////142199207
+////5 / 22 / 2022 
+////I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I learned many things from this workshop like I learned the difference between external linkage and internal linkage. The difference is that the external linkage is used to form a linkage 
+between the stuff from different translation units while the internal linkage is used to form a linkage between the stuff in the same translation unit. A static variable is an example of an 
+internal linkage. I used the static keyword in the display function to update my counter variable in it, so in the end, it has the value of the number of times the display function was 
+called. The change I made in the food order class for part two was that I changed the food description variable from a static array to a dynamic array. Then in the read array, I read the 
+description into a variable with string data type so there is no limit on the length. Then after that, I allocated the memory to the dynamic array of class, according to the scanned string’s 
+size, and then copied the scanned string to the food description variable from a FoodOrder class. I also Learned to receive arguments from the command line by making a prototype for the main 
+function in a way that accepts those arguments. I also learned to access a variable defined in a different translation unit through an extern keyword. I also learned to declare a local 
+variable that resides in the memory throughout the lifetime of the program through static keyword. I also learned to upgrade the code to accept and manage a user-defined string of any length 
+through a string variable that stored the data and according to its size of it I allocated the size for the other dynamic array in the FoodOrder class. I also learned to guard a class 
+definition against duplication in a translation unit by keeping that class in a header guard, so if the program will try to make a duplication, it will first check and if already that class 
+definition is available, then it will not create a duplicate.
+I also had many difficulties in this code like I forgot that declare the extern variable in one translation unit and then in the other translation unit we have to define it again to use it 
+there. This took lots of my time to figure this thing out.

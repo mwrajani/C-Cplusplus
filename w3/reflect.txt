@@ -1,0 +1,15 @@
+////Muhammad Wajih Rajani
+////mwrajani@myseneca.ca
+////142199207
+////4 / 10 / 2022 
+////I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I learned many things from this workshop-like specialization, the reason behind the specialization of add member function was if the template’s datatype was float, then there was a chance of 
+there being very less difference between two numbers, we defined a margin that if the difference is this much then yeah both numbers are same and don’t add the number again in the set. I 
+also learned the reason behind defining the class variable outside the class definition, and it was that a class might be declared in many translation units and if it was defined on all of 
+them, there would be a repeated symbol. I also learned to design and code a class template, for instance in this workshop, I designed and coded the class template for a collection class 
+whose parameters were a typename T and int capacity. I learned to template a class variable which in this case could have been the dummy, though I did not do this it could have been done. 
+I also did specialize in a templated class for a particular type like I specialized in the add function for when a pair class has been used with capacity 100. I also learned to instantiate 
+a template class which in this case was like in this case both the template class of collection and set were instantiated.  I also did specialize in a member function of a templated class 
+to process a particular type as I specialized in the operator function for when a dummy is required from it by a set, return no value and no key as key and value of pair class. I also 
+learned to derive a template class from another one for instance in this example I derived the set class from a collection.
+I also had some problems in this workshop like I used using namespace std in header files dues to which a variable named cout became ambiguous for the compiler.
