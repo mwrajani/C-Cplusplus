@@ -1,0 +1,10 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//7 / 18 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I learned many things from this workshop like the reason for the deallocation of the dynamically allocated memory for the vector, and the reason is that it will cause a memory leak, and we 
+don’t want that, therefore we deallocate the memory. We can set an observer as we did in workshop 5 which observers and reports the status changes happening on a function. I also learned 
+that I would need to store a collection of vehicles as pointers as I needed to use the functions of the vehicles and also wanted to edit the value of the collection.
+I had many problems in this workshop, by mistake in the beginning I wrote the code for the car constructor like the code is written to read data from a file stream which gave me errors and 
+made my code crash, I solved that error by realizing that simple input stream was used and after that, I solved my code.  

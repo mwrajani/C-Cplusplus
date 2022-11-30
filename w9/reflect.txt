@@ -1,0 +1,12 @@
+////Muhammad Wajih Rajani
+////mwrajani@myseneca.ca
+////142199207
+////5 / 22 / 2022 
+////I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I have learned many things in this workshop. One of them is the benefits of binary files in this workshop which was that they are more efficient. In terms of memory, storing values using 
+numeric formats such as IEEE 754, rather than as text characters, tends to use less memory, we used this in the process_data constructor. In addition, binary formats also offer advantages in 
+terms of speed of access. Bind function with the help of placeholders helps to manipulate the position and number of values to be used by the function and modifies the function according to 
+the desired output. It was important in this workshop as through this I was able to create functions with certain input and save them, so the returned output was also saved with me. multiple 
+threads can concurrently run-on multiple CPUs. Therefore, multithreaded programs can run much faster than on a uniprocessor system. I established multithreading in this workshop by creating 
+a vector and storing all the threads in it. 
+I had many problems in this course like when I was trying to join the thread without pushing it back on the vector, my code crashed and I had to work really hard to find my error.
