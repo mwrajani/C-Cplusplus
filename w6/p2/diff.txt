@@ -1,0 +1,14 @@
+In line number 34 of your output:
+The output should be:
+Milhouse Van+= Van: Milhouse Van
+         ^
+But your output is: 
+Milhouse  Van+= Van: Milhouse  Van
+         ^
+
+Unmatched character details:
+The character in column 10 is supposed to be:
+  [V] ASCII code(86)
+but you printed
+  [Space] ASCII code(32)
+

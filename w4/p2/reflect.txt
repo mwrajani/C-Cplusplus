@@ -1,0 +1,14 @@
+Name: Muhammad Wajih Rajani
+email: mwrajani@myseneca.ca
+Student id: 142199207
+Date: 2/14/2022
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+In this workshop, I learned that we could use overloaded constructers. One has no parameters and just resets all the values.  Second has 
+all the possible parameters to initialize all the class variables. I also learned that we could use destructors to deallocate all the 
+dynamic memory of the class member pointers automatically in the end.  
+I had many difficulties (required days of debugging) in my code like, when I used to run my code, an infinite loop occurred. I solved it by 
+changing set function, as in my set function, I had not set the value of a member variable due to which my value was never valid which 
+caused an infinite loop. I also had an error which only held in the matrix. Which stated that I had used a condition at a specific line in 
+between the output values. I removed the condition, checked if my code worked, and as it did work without that condition, I submitted my 
+code. 

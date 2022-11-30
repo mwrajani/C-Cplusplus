@@ -1,0 +1,16 @@
+/*
+Name: Muhammad Wajih Rajani
+email: mwrajani@myseneca.ca
+Student id: 142199207
+Date: 2/6/2022
+*/
+//> I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+I learned many things during this workshop, for example I learned that the variables we declare in a class are private automatically until 
+you write public above it to make it available everywhere. The connection between the variables in the class object and the client code is
+ through the member functions of the class which are public, so as the member functions are a part of the object, the private variables are
+ available for the functions of the object. There is something called struct which is totally opposite of class. Everything is public until
+ you specify it is private by writing it above it. I used all the stuff specified above in this workshop. Except the struct thing, but I 
+used it in many workshops before.
+I only had difficulty in knowing if the transfer function was from the class object or not. Then my friend told me that a global function
+ means not from class object.

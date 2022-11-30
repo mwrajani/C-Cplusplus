@@ -1,0 +1,14 @@
+Name: Muhammad Wajih Rajani
+email : mwrajani@myseneca.ca
+Student id : 142199207
+Date : 2 / 19 / 2022
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+I learned many things in this workshop, for example overloading operators in which we are going to change how the operator will work when it is looking like what we specified in its 
+prototype. Thus, many operations which were not possible earlier with the use of those operators gets possible. Then the second important thing is the type conversion specifier through 
+which we specify what value should be returned from the class on the given occasions. For example, in an if statement, we can call a class as a condition through a conversion type operator,
+ this class can act like a full fletched condition. The advantage of using it will be that we will not have to make a new condition for every value of same class. That one we make will work
+ for any values of that class. 
+I had difficulty in helper functions as they are not made inside the class so the problem, I had was how will they access the member variable values. Then a friend of mine told me that those
+ helper functions can use the member functions to access member variable values.
+

@@ -1,0 +1,11 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//3 / 13 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+In this workshop, I learned the implementation of multiple constructors, for instance, copy, no argument, one argument, two-argument, and three-argument constructors. I also learned the 
+implementation of the rule of three for a class, which is copy, assignment, and destruction of it.  I also learned the read and write operations for formatted data using istream and ostream. 
+I also learned the overloading of insertion and extraction operators for input and output using iostream. 
+I faced many issues while writing the code. For instance, while overloading operator += I faced an error for deallocating the memory of the current object, due to which nothing appeared on 
+the screen. I did not realize it for a lot of time as it was written on the instructions to do that, which caused the error. I also did not make a copy constructor as the instruction did 
+not ask, which caused the error as it was required in the code.
