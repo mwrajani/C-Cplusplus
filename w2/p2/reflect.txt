@@ -1,0 +1,18 @@
+/*
+Name: Muhammad Wajih Rajani
+email: mwrajani@myseneca.ca
+Student id: 142199207
+Date: 1/30/2022
+*/
+//> I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+
+
+In this workshop, I learned how to use memory dynamically. Using memory dynamically is better than using it statically, because after using the memory we can deallocate it. In this way we
+ can use the same memory for other variables to. Due to not proper deallocation of dynamic memory many problems arise, like memory insufficiencies and memory leak, for example when there is
+ no use of a variable and it still occupies the memory, there is less memory left for other variables. Another thing is that if the memory pointer gets out of scope during the execution of
+ program, this causes memory leak. Another thing I learned was function overloading. In my solution file two functions had the same name, but different number of parameters so when we call
+ a function, the number and type of parameter showed which function we are calling.
+I was stuck with a problem that my code never went back to its original state, for example after I entered the first DNA, when I entered it the second time, the code used to crash, and I 
+did not know what was the reason behind it. Then one of my friends advised that make sure that after entering the data for the first time, your program goes back to its original state then
+ I used the rewind () function, due to which I put a halt to the error. 

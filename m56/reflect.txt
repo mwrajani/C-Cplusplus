@@ -1,0 +1,12 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//4 / 8 / 2022
+
+I learned many things in this OOP244 subject overall, for example, I learned to do object-oriented programming. This means I learned to create different objects, in this case, I created 
+many objects like aidman. I also learned to use dynamic memory like allocating it, deallocating etcetera. In this case, I did this with the file name. I learned to make constructors and 
+deconstructors for a class/object, which in this case I have done for the aidman class and many others. In this subject, I also learned to use pure virtual functions which in this case is 
+done with iProducts. In this course, I also learned to inherit a class into another one for instance in this case perishable inherited item class.
+I had trouble with many things in this course, mostly with memory leaks. In this case, this occurred in the shipping function, where after saving the stuff in different files, I did not 
+know how to deallocate. Then I had an idea to use the same for loop through which I was saving stuff to different files. I used the loop and the remove function to remove those who are 
+going to be shipped.

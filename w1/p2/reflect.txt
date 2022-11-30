@@ -1,0 +1,12 @@
+This workshop taught me many important lessons, for instances after doing this workshop I know that we can not use relational operators on strings. We must use the functions from the string library
+ to compare the strings with each other. I learned this lesson when I was at the very end of this workshop but was not able to end the program with an exclamation mark and one of my friends told me
+ that I can not compare the entered value with the exclamation mark by using the equals to operator. She told me that I must use a strcmp function which tells us, if two strings are equals to each 
+other or not. The other thing I learned was that almost all the functions in our string library’s implementation files were provided to us in cstrtools file and I got to know what happens in those
+ functions by looking at the code on cstrtools.cpp files.
+
+
+Muhammad Wajih Rajani
+mwrajani@myseneca.ca
+142199207 
+1/23/2022
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
