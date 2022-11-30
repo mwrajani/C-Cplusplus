@@ -1,0 +1,26 @@
+1)	There are three ways to map first the month integer value to the first three characters of the month name, which are by using if statement or case statement construct, the if statement can be used for it for example
+if (Month == 1)
+		{
+			printf("Log starting date: %d-JAN-01\n", Year);
+		}
+		if (Month == 2)
+		{
+			printf("Log starting date: %d-FEB-01\n", Year);
+                             }
+And case can also be used for instance
+switch (inputmonth)
+		{
+		case 1:
+			printf("\n%d-JAN-%d\n", inputyear, 01 + i);
+			break;
+		case 2:
+			printf("\n%d-FEB-%d\n", inputyear, 01 + i);
+			break;
+       default:
+        break;
+       }.
+2)	The three types of iteration are while, do while, and for loop, and I used for while loop for the validation purposes as I wanted to validate that is it required to enter this loop or not while in do while it’s a post condition loop and it did not fulfill my requirements while I did not used for loop as in that we should know how many the loop is to be repeated while I did not knew how many times I am supposed to repeat the loop.
+3)	There are many ways to end the errors like the blackbox testing in which we have people who know nothing about the code inside but they know about what the code is supposed to do so they arrange testing date which consists of erroneous data which should not work while the working data in which the program should work and the boundary in which program might work or not dependent on the data provided but the boundary data should be around the boundary of the working data. I did not did the black box as I did the white box testing in which tester knows whole code and all same as black box described above which is done by black box testers, moreover I also did the walkthrough in which I read whole code gave imaginary input and wrote every possible ram processing in paper to check the error. 
+
+
+

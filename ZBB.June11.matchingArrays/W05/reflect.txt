@@ -1,0 +1,10 @@
+1)	There are many benefits and advantages of using user-defined types, as in this way we are able to connect many things together to a subtopic very easily, for example we connected
+ all the stuff related to player’s information in PlayerInfo data type and stored its related data in it while we connected all the stuff related to games information to GameInfo data type
+ in this workshop, thus in this way it makes it easier to access stuff. It also helps us understand that which data is related to each other, and which is not related to each other in any
+ way. 
+2)	The two major logical changes would be to make two other user defined data types, one of them will be to store the history of games while the other one will be to store its result. 
+In this way we will be able to record all the data easily after using it. Another major change for my program would be to initialize all the variables which might be used again in the next
+ game to the value which they should have during the beginning of the game to stay away from possible errors.
+3)	The most time of mine was spent on the debugging process as it took more then double of my time it took for making the program and I will try to analyze the bugs faster and try to 
+work hard on not making the errors, as it is very time consuming to end them, and I hope I will be able to get better in it soon. Other things which I tried to end the errors were to make 
+the pseudocodes and the trace tables which were not helpful at all but sleeping helped me in getting more efficient to end those errors.

@@ -1,0 +1,34 @@
+Reflection
+       Name   : Muhammad Wajih Rajani
+	ID     : 142199207
+	Email  : Mwrajani@myseneca.ca
+	Section: NAA
+
+1)	ReportData structure would require bytes of memory as it contains 3 int data type variables named as prodSkuNum, caloriPerServ, and prodWeighGram, there are also  6 double data 
+type variables named as prodPrice, prodWeighPound, prodWeighKilo,  totalServ, costPerServing, and costCaloriePerServing. As each int variable require 4 bytes and each double variable 
+require 8 bytes when we do (4*3)+(6*8) this is equals to 64 bytes. We can improve passing of information to these functions by using passing by address instead of using passing by value as 
+passing by address uses less memory space thus it is faster and more efficient. As an address in c language takes memory space of 4 bytes while this can represent things which have a lot 
+more memory space requirement than that.
+2)	We can merge both ReportData and CatFoodInfo as CatFoodInfo’s all variables are already available in the ReportData so in this way we can merge it easily and this will also not 
+cause any trouble, the advantage of doing it will be that some memory space will be saved. After this we can make our program work smoothly by replacing all the places where we used 
+CatFoodInfo in our program by ReportData. Now the improved report data type is the same, but it is used more efficiently as it caters for both CatFoodInfo and itself. We can also improve
+ this struct by removing the prodWeighGram and just represent it by the multiplication of 1000 and presenting it in printf like this printf(“%d”, (int)(prodWeighKilo * 1000)); in this way 
+we will save some storage. In the same way same statement can be used in display report data function so in this way ReportData will take less storage and work more efficiently. So for 
+example in report data function we will do this:
+void displayReportData(const struct ReportData rowData, const int ifCheapest)
+{
+	int i = 0;
+		printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", rowData.prodSkuNum, rowData.prodPrice, rowData.prodWeighPound, rowData.prodWeighKilo, (int)(rowData.prodWeighkilo * 1000), rowData.caloriPerServ, rowData.totalServ, rowData.costPerServing, rowData.costCaloriePerServing);
+}
+The improved struct:
+ struct ReportData
+{
+	int prodSkuNum;
+	double prodPrice;
+	int caloriPerServ;
+	double prodWeighPound;
+	double prodWeighKilo;
+	double totalServ;
+	double costPerServing;
+	double costCaloriePerServing;
+};
