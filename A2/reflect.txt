@@ -1,0 +1,15 @@
+I learned a lot of things in this assignment for example I discovered a new error (LNK 2019) which may occur if you will use wrong spelling of something thus due to this reason it will not
+let your program to run until you fix it.
+Functions is a module which performs a specific task, in short it usually takes input, processes it, and returns the value earned by the process. It is very important in any language as it
+is very useful for example, we don’t have to write whole module again and again which may be required during the development process of program many times thus in this way function saves 
+our crucial time and it also helps us in saving storage space as it when we did not write whole module again and again this saves our storage. To support my explanation, I would share that
+as I had to code again and again to get the permission from the user of that does he want to enter some stuff or not, so I used a module named yes (asked in the assignment), in this way so
+me if my time was saved along with some storage. 
+In my opinion helper functions were in a different module as in this way it showed us that in that module just helper functions are available which may help in the execution of the major 
+function, so in this way it separates the helper functions with major ones.
+Name: Muhammad Wajih Rajani
+Student Number: mwrajanimyseneca.ca
+Email: mwrajani@myseneca.ca
+Section: NAA
+Date: 19/7/2021 
+

@@ -1,0 +1,26 @@
+Reflection assignment 1 (A1)
+1)	The first error was when that scanf statement used %s instead of %c as yesNo has a data type char that is why a runtime error occurred during the execution of the program. Correct 
+statement is this scanf("%c%*c", &yesNo); while the incorrect one is this scanf("%c%*c", &yesNo);. Second error was that the if statement used quotation mark ( “ )instead of apostrophe 
+( ‘ ) to check that if yesNo was equals to Y or y while to check char apostrophe ( ‘ ) should be used. Correct statement was (yesNo == 'y' || yesNo == 'Y') while the incorrect one was 
+(yesNo == “y” || yesNo == “Y”). Third error was that no prompt occurred to input the home phone number even after we entered y (means yes) in the question which asked that do we want to 
+enter it or not. The error was that we did not used or ( || ) in the if statement and we used and ( && ) in the if statement which meant that yesNo is equal to both y and Y then take input 
+of home phone number so the incorrect statement was if (yesNo == 'y' && yesNo == 'Y') and the correct one was if (yesNo == 'y' || yesNo == 'Y'). The fourth error in it was that the string 
+array did not had enough space to store the null part in the end of the array thus it kept storing the values entered for next array also as when it did not have any null part so it did not 
+knew when to stop reading from the input. The correct command was this char middleInitial[7]; and the incorrect one was this char middleInitial[5];.
+2)	The contact struct is embedded with other structs and in the memory, this looks like as that the user defined data type of the contacts contains name, address and numbers with other 
+user defined data types Name, Address and Numbers. This helps us in a way that we can combine a lot of different related information like in this case we merged the information of the 
+contact’s address, number, and name through the struct of contacts. This helps us get and keep information easily and even find them easily if we forget something as all the information is 
+stored connectively.
+3)	The repeated function in this contact.c file is to enter y or n for some situations to check that if you want to provide the next information or not. I can replace that by this 
+function which has this prototype void ( char *yesNo ), in which we get the char and following it if it is 1 so in that sequences we will ask that information and store its entered 
+information in memory so that in contact.c we don’t have to write this repeatedly and just call this function.
+4)	%*c this mean that just read it and ignore it and it is very important as in this way we are not taking any extra information from the next line in this case and we can 
+even use this to even take the input of the amount of characters we want to take input of so in this way this is very useful.
+5)	%[^\n] is used in this case instead of this %s as in the case of %s we do not have control of how many characters to take input of thus this is not helpful as in this case we had 
+a maximum number of characters as we could not have stored more then that on our arrays. %[^\n] this also helps us in after reading the specific number of characters moving to the next 
+line to scan and then there comes this %*c which basically ignore any of the stuff written so in this way we do not overwrite our array.
+Name: Muhammad Wajih Rajani
+Student number: 142199207
+Email: mwrajanimyseneca.ca
+Section: NAA
+Date: 8 July 2021

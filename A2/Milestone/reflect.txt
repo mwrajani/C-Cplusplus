@@ -1,0 +1,7 @@
+findContactIndex and getTenDigitPhone helped me in many instances with respect to readability and overall maintenance of my code as almost all parts (functions) of my code used them more 
+than once, for example search contact used getTenDigitPhone to take input of the 10 digit cell number which is to be searched, and findContactIndex is used to find the index of the num If 
+available in contacts and with that information we display the information of that contact. In the same way we use both functions findContactIndex and getTenDigitPhone in other functions 
+also like addContact, updateContact and deleteContact. 
+In terms of readability also these functions were really helpful as wherever we put these functions, their names helped us understand their purpose perfectly.
+I would have absolutely liked this assignment to load and save the contact information on another text file as in this way we would not have to make an array and then initialize it and we 
+can store as many contact information as much our computer storage can hold. Moreover, we can then also share our contacts to other computer systems and people also easily.
