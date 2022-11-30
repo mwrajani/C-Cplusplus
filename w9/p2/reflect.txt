@@ -1,0 +1,11 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//3 / 31 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+In this workshop, I learned to apply the rule of three, in this case, it was applied to both, text and HTML text modules. The rule of three is when a class can be assigned copy constructed 
+or deallocated safely after each allocation. I also learned to read data into a dynamically allocated memory, both were done on text through the reading and write function and in HTML 
+text-only writing into a file was used through the write function. I did the reading by using a while function which used to read the file character by character until it read the end of 
+the file.
+I had some difficulty in HTML text copy constructer and assignment constructer as I forgot, how to transfer data of HTML text’s, text data into another one. Then I read notes and I 
+remembered that we could use the text constructer and put the name of our HTML text which will automatically transfer text data to it through the text’s copy constructer.

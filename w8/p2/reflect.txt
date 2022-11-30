@@ -1,0 +1,12 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//3 / 24 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+In this workshop, I learned how to define virtual functions. In this case, we have virtual functions in the shape class named getSpecs and draw. I also learned to create the abstract base 
+class. In this case, the abstract class was shape, which contains all the virtual functions described above. All of the functions described above were implemented in one abstract class 
+called LblShape which only contains the implementation for getSpecs. The other two classes called rectangle, and line are concrete class as both contain the implementation of both virtual 
+functions. 
+I faced difficulty in some parts of this workshop, like when I created the virtual destructor for shape, I was getting an error for not implementing it. I thought that this might be also 
+like the definition of other virtual functions, but then when I shared my error with my friends, they told me that I should implement it too as a virtual function in shape class. This 
+solved my error.  

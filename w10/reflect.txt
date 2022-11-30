@@ -1,0 +1,10 @@
+////Muhammad Wajih Rajani
+////mwrajani@myseneca.ca
+////142199207
+////4 / 10 / 2022 
+////I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+I learned many things in this workshop, for instance, I learned to make function templates, in this case, select and printCollection were function templates. I also learned how to use class 
+templates. In this case, the collection was a class template. I learned that a template is very useful as if we use a template function, this can be used for many different classes as one, 
+so we don’t have to make different functions for different classes. This makes the work easier for us and less prone to errors, as the less we code, the less we do errors.
+I had some difficulties in this workshop also like I did not know how to use the class template constructer in the middle of a function template function. I solved this problem for myself 
+through course notes. This workshop was easier than others as we had to code very less and there was no dynamic memory involved so no memory leak errors were involved.

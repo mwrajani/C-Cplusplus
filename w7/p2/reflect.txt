@@ -1,0 +1,13 @@
+//Muhammad Wajih Rajani
+//mwrajani@myseneca.ca
+//142199207
+//3 / 20 / 2022
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+In this workshop, I learned how to inherit a derived class from a base class. In this workshop the base class was Container and the derived was the Pack. I also learned to shadow member 
+functions from the base class. In this instance, the functions which were shadowed are operator +=, operator -=, print(), read(), operator<<, and operator>>. I also learned to access the 
+shadowed member functions by using the scope resolution of the base class. I also utilized the custom input/output operators with these classes, as I learned to overload them in a way that 
+if we reference Pack or container, it will print or read from it according to the class referenced. 
+
+I faced many difficulties in this code also like I couldn’t print the content description from the Pack class, as the instructions didn’t ask us to make a query function for it. Then I 
+realized that the print function of the container class does all the work for us as it prints the content description along with its data, so I used that, and it helped me solve my problem.
